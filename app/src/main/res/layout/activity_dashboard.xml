@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="#FFF9C9">
+
+    <TextView
+        android:id="@+id/goodnight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="672dp"
+        android:text="Good Night, Ai."
+        android:textColor="#862B0D"
+        android:textSize="99px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="640dp"
+        android:text="The Moon is lovely tonight, isn't it?"
+        android:textColor="#985DC0"
+        android:textSize="49px"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/buybtn"
+        android:layout_width="279dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="540dp"
+        android:text="BUY NOW"
+        android:textAlignment="center"
+        android:textSize="59px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/buyimg"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/shopping_cart2"
+        app:layout_constraintBottom_toBottomOf="@+id/buybtn"
+        app:layout_constraintEnd_toEndOf="@+id/buybtn"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="@+id/buybtn"
+        app:layout_constraintTop_toTopOf="@+id/buybtn" />
+
+    <Button
+        android:id="@+id/historybtn"
+        android:layout_width="279dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="428dp"
+        android:text="HISTORY"
+        android:textAlignment="center"
+        android:textSize="59px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/historyimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/white_historyicon"
+        app:layout_constraintBottom_toBottomOf="@+id/historybtn"
+        app:layout_constraintEnd_toEndOf="@+id/historybtn"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="@+id/historybtn"
+        app:layout_constraintTop_toTopOf="@+id/historybtn"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/locationbtn"
+        android:layout_width="279dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="308dp"
+        android:text="OUR OUTLETS"
+        android:textAlignment="center"
+        android:textSize="59px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/locationimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/locations_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/locationbtn"
+        app:layout_constraintEnd_toEndOf="@+id/locationbtn"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/locationbtn"
+        app:layout_constraintTop_toTopOf="@+id/locationbtn"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:text="Ai's Points : 69Pts"
+        android:textColor="#985DC0"
+        android:textSize="29dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/redeemptsbtn"
+        android:layout_width="279dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="56dp"
+        android:text="REDEEM NOW"
+        android:textAlignment="center"
+        android:textSize="59px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©Fashyion.inc 2023"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+</androidx.constraintlayout.widget.ConstraintLayout>
